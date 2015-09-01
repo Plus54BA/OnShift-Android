@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Login_Main_Layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp" >
+
+    <ImageView
+        android:id="@+id/Login_Logo_Image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+        android:contentDescription="@string/red_logo"
+        android:src="@drawable/onshiftlogo_rebrand" />
+	
+    <TableLayout
+            android:id="@+id/usernameTable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+    <TableRow>
+    	<TextView
+        	android:id="@+id/Login_Username_Text"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="@string/username"
+        	android:textColor="@color/black"
+        	android:textColorHint="@color/black" />
+    	<Button
+        	android:id="@+id/Login_ForgotUsername_Button"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_marginLeft="100dp"
+        	android:background="@drawable/invisible_button"
+        	android:text="@string/forgot"
+        	android:textSize="14sp"
+        	android:textColor="@color/os_blue" />
+    </TableRow>
+    </TableLayout>
+
+    <EditText
+        android:id="@+id/Login_Username_Edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:paddingTop="5dp" >
+
+        <requestFocus />
+    </EditText>
+
+    <TableLayout
+            android:id="@+id/passwordTable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+    <TableRow>
+    	<TextView
+        	android:id="@+id/Login_Password_Text"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+            android:text="@string/password"
+        	android:textColor="@color/black" />
+    	<Button
+        	android:id="@+id/Login_ForgotPassword_Button"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_marginLeft="215dp"
+        	android:background="@drawable/invisible_button"
+        	android:text="@string/forgot"
+        	android:textSize="14sp"
+        	android:textColor="@color/os_blue" />
+    </TableRow>
+    </TableLayout>
+    	
+
+    <EditText
+        android:id="@+id/Login_Password_Edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="@string/password_help"
+        android:inputType="textPassword"
+        android:paddingTop="5dp" />
+
+    <Button
+        android:id="@+id/Login_LogIn_Button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/login_button"
+        android:text="@string/login"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    
+	<TableLayout
+            android:id="@+id/Separator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
+    <TableRow>
+    
+    <ImageView
+        android:id="@+id/Login_Left_Separator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/line_separator" /> 
+     
+     <TextView
+        android:id="@+id/Login_Separator_Lbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="18sp"
+        android:text="@string/separator"
+        android:textColor="@color/gray_light" />
+     
+     <ImageView
+        android:id="@+id/Login_Right_Separator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/line_separator" />
+     
+     </TableRow>
+     </TableLayout>
+
+    <TextView
+        android:id="@+id/Login_FbLogin_Lbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:text="@string/fbLogin"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
+
+    <ImageButton
+        android:id="@+id/Login_FbLogIn_Button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="#00000000"
+        android:scaleType="fitXY"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/fb_login_button" />
+
+</LinearLayout>

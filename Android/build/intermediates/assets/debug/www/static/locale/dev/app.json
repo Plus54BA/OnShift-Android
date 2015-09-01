@@ -1,0 +1,11 @@
+{
+    "pages": {
+        "calendar": {
+            "header": {
+                "today": "Today"
+            }
+        }
+    }
+    , "test": "test"
+    , "test_plural": "tests"
+}

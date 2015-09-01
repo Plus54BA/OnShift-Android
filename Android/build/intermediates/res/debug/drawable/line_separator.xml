@@ -1,0 +1,5 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="line">
+    <stroke android:width="1dp" android:color="@color/gray_light"/>
+    <size android:width="145dp" android:height="2dp"/>
+</shape>
+<!-- From: file:/Users/matias/Documents/Proyects/OnShift-Android/Android/res/drawable/line_separator.xml -->

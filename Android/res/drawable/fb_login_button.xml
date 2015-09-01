@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <selector xmlns:android="http://schemas.android.com/apk/res/android">
+     <!-- just set default images for all cases -->
+     <item android:state_pressed="true"
+           android:drawable="@drawable/fblogin" /> <!-- pressed -->
+     <item android:state_focused="true"
+           android:drawable="@drawable/fblogin" /> <!-- focused -->
+     <item android:drawable="@drawable/fblogin" /> <!-- default -->
+ </selector>

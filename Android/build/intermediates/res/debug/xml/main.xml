@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+ <!-- The main content view -->
+ <org.apache.cordova.CordovaWebView
+    android:id="@+id/mainView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+ <RelativeLayout
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="start" >
+    <!-- The navigation drawer -->
+    <ListView android:id="@+id/left_drawer"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:choiceMode="singleChoice"
+        android:divider="#FFFFFF"
+        android:dividerHeight="1dp"
+        android:background="@color/gray_light"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true" >
+        <TextView
+            android:id="@+id/privacyPolicyView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:onClick="showPrivacyPolicy"                
+       		android:clickable="true"
+            android:textColor="#FFFFFF"
+            android:text="@string/footer_privacy_policy" />
+         <TextView
+            android:id="@+id/helpView"
+            android:layout_toRightOf="@id/privacyPolicyView"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="showHelp"                
+       		android:clickable="true"
+            android:textColor="#FFFFFF"
+            android:text="@string/footer_help" />
+        <TextView
+            android:id="@+id/copyrightView"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="35dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="15dp"
+            android:gravity="center"
+            android:lines="3"
+            android:textColor="#FFFFFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+</RelativeLayout>
+</android.support.v4.widget.DrawerLayout><!-- From: file:/Users/matias/Documents/Proyects/OnShift-Android/Android/res/xml/main.xml -->

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/red_dark"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/onshiftlogonew" />
+
+    <Button
+        android:id="@+id/Scheduler_LogOut_Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:text="@string/logout"
+        android:textColor="@color/red_dark"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+</LinearLayout>
+<!-- From: file:/Users/matias/Documents/Proyects/OnShift-Android/Android/res/layout/activity_scheduler.xml -->

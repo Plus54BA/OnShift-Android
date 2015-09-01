@@ -1,0 +1,78 @@
+-injars /Users/matias/Documents/Proyects/OnShift-Android/Android/build/intermediates/multi-dex/debug/allclasses.jar
+-outjars /Users/matias/Documents/Proyects/OnShift-Android/Android/build/intermediates/multi-dex/debug/componentClasses.jar
+
+-libraryjars /Users/matias/Library/Android/sdk/build-tools/22.0.1/lib/shrinkedAndroid.jar
+
+-forceprocessing
+-dontoptimize
+-dontobfuscate
+-dontpreverify
+-dontwarn
+-printconfiguration /Users/matias/Documents/Proyects/OnShift-Android/Android/build/intermediates/multi-dex/debug/components.flags
+
+
+-keep class null {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+
+-keep class com.onshift.mobile.universal_login.UniversalLoginActivity {
+    <init>();
+}
+
+-keep class com.onshift.mobile.universal_login.URLPickerActivity {
+    <init>();
+}
+
+-keep class com.onshift.mobile.MainActivity {
+    <init>();
+}
+
+-keep class com.onshift.mobile.ContainerActivity {
+    <init>();
+}
+
+-keep class com.facebook.LoginActivity {
+    <init>();
+}
+
+-keep class com.onshift.mobile.FacebookLoginActivity {
+    <init>();
+}
+
+-keep class com.onshift.mobile.PrintDialogActivity {
+    <init>();
+}
+
+-keep class com.onshift.mobile.TutorialActivity {
+    <init>();
+}
+
+-keep class com.onshift.mobile.universal_login.ForcePasswordResetActivity {
+    <init>();
+}
+
+-keep class com.onshift.mobile.universal_login.ForgotPasswordActivity {
+    <init>();
+}
+
+-keep class com.onshift.mobile.DrawerActivity {
+    <init>();
+}
+
+-keep class com.onshift.mobile.ExternalReceiver {
+    <init>();
+}
+
+-keep class com.onshift.mobile.GCMIntentService {
+    <init>();
+}
+
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+
+-keep public class * extends java.lang.annotation.Annotation {
+    <fields>;
+    <methods>;
+}

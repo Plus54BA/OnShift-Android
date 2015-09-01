@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:background="@color/os_gray_dark" >
+
+        <ImageView
+            android:id="@+id/Sc_Logo_Header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/onshiftlogogreen" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="55dp" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/Sc_Scheduler_Btn"
+                android:layout_width="fill_parent"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@color/btn_gray_light"
+                android:drawablePadding="5dp"
+                android:drawableTop="@drawable/scheduler_active"
+                android:includeFontPadding="false"
+                android:padding="12dp"
+                android:paddingBottom="-12dp"
+                android:text="@string/scheduler_role"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/Sc_Employee_Btn"
+                android:layout_width="fill_parent"
+                android:layout_height="70dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:drawablePadding="3dp"
+                android:drawableTop="@drawable/employee"
+                android:padding="12dp"
+                android:paddingBottom="-12dp"
+                android:text="@string/employee_role" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout><!-- From: file:/Users/matias/Documents/Proyects/OnShift-Android/Android/res/layout/scheduler_onshiftmenu_header.xml -->

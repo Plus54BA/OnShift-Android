@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" 
+	android:fillViewport="true"
+	android:orientation="vertical">
+     <LinearLayout 
+        android:id="@+id/singledateheader"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="30dip" 
+		android:layout_marginRight="30dip"
+		android:gravity="bottom">    
+        <TextView 
+            android:id="@+id/singlemonthField"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/month"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:layout_marginLeft="14dp"/>  
+       <TextView 
+            android:id="@+id/singledayField"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/day"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:layout_marginLeft="39dp"/>
+       <TextView 
+            android:id="@+id/singleyearField"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/year"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:layout_marginLeft="55dp"/>
+    </LinearLayout>
+	<DatePicker android:id="@+id/singleDatePicker"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="5dip" 
+		android:layout_marginRight="5dip" />
+</LinearLayout><!-- From: file:/Users/matias/Documents/Proyects/OnShift-Android/Android/res/layout/singledatepicker.xml -->

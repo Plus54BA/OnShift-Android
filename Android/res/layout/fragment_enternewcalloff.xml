@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/os_white"
+    android:orientation="vertical">
+
+    <EditText 
+        android:id="@+id/editTxtSearch"
+        android:layout_width="match_parent"
+    	android:layout_height="40dp"
+    	android:layout_marginLeft="6dp"
+    	android:layout_marginRight="6dp"
+    	android:gravity="center"
+    	android:layout_marginTop="7dp"
+    	android:layout_alignParentTop="true"
+    	android:textColorHint="#8d8e92"
+    	android:textColor="#646469"
+    	android:textSize="15sp"
+    	android:singleLine="true"
+        android:hint="Search Employee"/>
+    
+    <ImageView 
+        android:id="@+id/imgSearch"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="18dp"
+        android:src="@drawable/search_icon"/>
+    
+    <ListView 
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:layout_marginTop="47dp"
+        android:divider="#b3b3b3"
+		android:descendantFocusability="blocksDescendants" 
+        android:layout_marginBottom="0dp"
+        android:dividerHeight="1dp"
+        android:clickable="true" />
+    
+    <TextView 
+        android:id="@+id/txtNoEmployees"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_alignTop="@id/listCalloffs"
+        android:layout_marginTop="60dp"
+        android:visibility="invisible"
+        android:layout_centerHorizontal="true"
+        android:text="No available employees"
+        android:textSize="16sp"/>
+</RelativeLayout>

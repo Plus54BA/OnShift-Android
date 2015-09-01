@@ -1,0 +1,6 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/menu_clear"
+        android:title="@string/clear_screen"
+        android:orderInCategory="100" />
+</menu>
+<!-- From: file:/Users/matias/Documents/Proyects/OnShift-Android/Android/res/menu/main.xml -->

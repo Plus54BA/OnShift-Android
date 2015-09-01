@@ -1,0 +1,144 @@
+    .icon-plus:before {
+        content: "";
+    }
+    
+    .icon-plus{
+      background-image: url(img/icon-plus.svg);
+      display: block;
+      width: 18px;
+      height: 18px;
+      background-size: 18px 18px;
+    }
+    
+    .icon-flag:before {
+        content: "";
+    }
+    
+    .icon-flag {
+        background-image: url(img/icon-flag.svg);
+        display: block;
+        width: 18px;
+        height: 18px;
+        background-size: 18px 18px;
+    }
+    
+    .icon-print:before {
+        content: "";
+    }
+    
+    .icon-print {
+        background-image: url(img/icon-print.svg);
+        display: block;
+        width: 18px;
+        height: 18px;
+        background-size: 18px 18px;
+    }
+    
+    .icon-more:before {
+        content: "";
+    }
+    
+    .icon-more {
+        background-image: url(img/icon-more.svg);
+        display: block;
+        width: 18px;
+        height: 18px;
+        background-size: 18px 18px;
+    }
+   
+    .icon-prev:before {
+        content: "";
+    }
+    
+    .icon-prev {
+        background-image: url(img/icon-prev.svg);
+        display: block;
+        width: 18px;
+        height: 18px;
+        background-size: 18px 18px;
+    }
+    
+    .icon-next:before {
+        content: "";
+    }
+    
+    .icon-next {
+        background-image: url(img/icon-next.svg);
+        display: block;
+        width: 18px;
+        height: 18px;
+        background-size: 18px 18px;
+    }
+    
+    .icon-prev-sm:before {
+        content: "";
+    }
+    
+    .icon-prev-sm {
+        background-image: url(img/icon-prev.svg);
+        display: block;
+        width: 14px;
+        height: 14px;
+        background-size: 14px 14px;
+    }
+    
+    .icon-next-sm:before {
+        content: "";
+    }
+    
+    .icon-next-sm {
+        background-image: url(img/icon-next.svg);
+        display: block;
+        width: 14px;
+        height: 14px;
+        background-size: 14px 14px;
+    }
+    
+    .icon-today:before {
+        content: "";
+    }
+    
+    .icon-today {
+        background-image: url(img/icon-today.svg);
+        display: block;
+        width: 18px;
+        height: 18px;
+        background-size: 18px 18px;
+    }
+    
+    .icon-filter:before {
+        content: "";
+    }
+    
+    .icon-filter {
+        background-image: url(img/icon-filter.svg);
+        display: block;
+        width: 18px;
+        height: 18px;
+        background-size: 18px 18px;
+    }
+    
+    .icon-menu:before {
+        content: "";
+    }
+    
+    .icon-menu {
+        background-image: url(img/icon-menu.svg);
+        display: block;
+        width: 18px;
+        height: 18px;
+        background-size: 18px 18px;
+    }
+    
+    .icon-ok:before {
+        content: "";
+    }
+    
+    .icon-ok {
+        background-image: url(img/icon-ok.svg);
+        display: block;
+        width: 18px;
+        height: 18px;
+        background-size: 18px 18px;
+    }
+    

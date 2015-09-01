@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_menu_cell"
+    android:layout_width="wrap_content" android:layout_height="30dp"
+    android:padding="6dp">
+
+    <TextView
+        android:id="@+id/txtDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:textStyle="bold"
+        android:gravity="left"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_marginLeft="4dp"
+        android:text=""
+        android:onClick="null"
+        />
+    
+    
+    
+</RelativeLayout>

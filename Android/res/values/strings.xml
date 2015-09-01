@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Copyright 2013 Amazon.com, Inc. or its affiliates. All Rights Reserved. -->
+<!-- Licensed under the Apache License, Version 2.0 (the "License"). You may not use this file except in compliance with the License. A copy of the License is located at -->
+<!-- http://aws.amazon.com/apache2.0/ -->
+<!-- or in the "license" file accompanying this file. This file is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License. -->
+
+<resources>
+
+    <string name="app_name">OnShift</string>
+    <string name="action_settings">Settings</string>
+    <!-- TODO: Enter your project number -->
+    <string name="project_number">441422613471</string>
+    <string name="introduction">Welcome!\n</string>
+    <string name="msg_field">msg</string>
+    <string name="clear_screen">Clear Screen</string>
+    <string name="first_launch">First Launch</string>
+
+    <string-array name="menu_items">
+        <item>Calendar</item>
+        <item>Available Shifts</item>
+        <item>Messages</item>
+        <item>Profile</item>
+        <item>Tutorial</item>
+        <item>Logout</item>
+    </string-array>
+    <string-array name="button_menu_items">
+        <item>btnCalendar</item>
+        <item>btnAvailableShifts</item>
+        <item>btnMessages</item>
+        <item>btnAccount</item>
+        <item>btnTutorial</item>
+        <item>btnLogout</item>
+    </string-array>
+    <string-array name="scheduler_menu_items">
+        <item>Dashboard</item>
+        <item>Profile</item>
+    </string-array>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="action_websearch">Web search</string>
+    <string name="app_not_available">Sorry, there\'s no web browser available</string>
+    <string name="onshift">OnShift</string>
+    <!-- <string name="defaultuser">areallylongemailstringmynameisanthony@gmaillongversion.com</string> -->
+    <string name="defaultuser">user_email</string>
+    <string name="footer_privacy_policy">"<u>Privacy Policy</u>   "</string>
+    <!-- <string name="footer_copyright">"Copyright © 2013 OnShift. \nAll rights reserved."</string> -->
+    <string name="footer_help">"|   <u>Help Center</u>"</string>
+    <!-- <string name="fb_app_id">432590970219609</string> -->
+    <string name="fb_app_id">919557671424401</string>
+    <string name="crashlytics_key">babacfde0ab37844fd9bac0d1f29b15db7e71d6c</string>
+    <string name="contDescription">slideshow</string>
+    <string name="set">Set</string>
+    <string name="cancel">Cancel</string>
+    <string name="month">Month</string>
+    <string name="day">Day</string>
+    <string name="year">Year</string>
+    <string name="hour">Hours</string>
+    <string name="minute">Minutes</string>
+    <string name="doNotShow">Do not show again</string>
+    <string name="red_logo">Red OnShift Logo</string>
+    <!-- <string name="enter_email">Personal Email Address</string> -->
+    <string name="username">User Name or Email Address</string>
+    <string name="username_help">Personal Email Address/Username</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Re-enter Password</string>
+    <string name="password_help">Passwords are case sensitive</string>
+    <string name="password_rules">One uppercase, one lowercase, one number and at least six characters</string>
+    <string name="forgot">Forgot?</string>
+    <string name="change_password">Change password</string>
+    <string name="update_password">Update password</string>
+    <string name="login">Log In</string>
+    <string name="logout">Log out</string>
+    <string name="signout">Sign Out</string>
+    <string name="back">Back</string>
+
+    <string-array name="baseURLs">
+
+        <!--
+        Plus 54 auth and environment
+        <item>https://pauth.osstage.net/</item>
+        <item>http://66.94.71.55:9000/</item>
+        <item>http://stage.v2.onshift.com/</item>
+        -->
+
+        <item>https://auth1.osstage.net</item>
+        <item>http://stage1.onshift.com</item>
+        <item>http://stage.v2.onshift.com/</item>
+    </string-array>
+
+    <!--  rest endpoints -->
+    <string name="rest_bootstrap">rest/bootstrap</string>
+    <string name="rest_calloff">rest/calloff</string>
+    <string name="rest_qualified_employees">rest/qualified_employees</string>
+    <string name="rest_assign_calloff">rest/assign_calloff</string>
+    <string name="rest_user">rest/user</string>
+    <string name="rest_shift">rest/shift</string>
+    
+    <!--  auth endpoints -->
+    <string name="auth_api_root">/api/v1.0/user</string>
+    
+    <string name="role_dialog">OnShift Mobile is designed for employees to view and manage their schedules. </string>
+    <string name="fbLogin">Log in using Facebook</string>
+    <string name="separator">or</string>
+    <string name="set_url">Change URL</string>
+    <string name="employee_role">Employee</string>
+    <string name="scheduler_role">Scheduler</string>
+
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="red_light">#970504</color> 
+    <color name="red_dark">#4c0302</color>
+    <color name="gray_light">#7a7a7a</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="os_primary">#78BE20</color>
+    <color name="os_blue">#0072CE</color>
+    <color name="os_white">#f2f2f2</color> 
+    <color name="os_gray">#63666A</color> 
+    <color name="os_orange">#ED8B00</color> 
+    <color name="os_gray_dark">#4A4A4A</color>
+    <color name="btn_gray_light">#646469</color>
+</resources>

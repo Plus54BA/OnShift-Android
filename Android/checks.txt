@@ -1,0 +1,8 @@
+Checks before for Publishing:
+-Remove long click listener to switch between prod/stage
+-Make sure you dont have stage urls pointed anywhere in code
+-Check app version in index html for sentry logging
+-Update app version txt on production
+-Check crashlytics
+
+ 

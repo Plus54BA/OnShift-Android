@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="50dp"
+        android:background="@null"
+        android:src="@drawable/phone_icon"
+        android:id="@+id/btnPhone" />
+    
+    <Button 
+        android:id="@+id/txtCalloffsCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/os_gray"
+        android:textSize="44sp"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:background="@null"
+        android:layout_marginTop="24dp"
+        android:maxLines="1"
+        android:text="0"/>
+    
+    <TextView 
+        android:id="@+id/txtCalloffs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/os_gray"
+        android:textSize="16sp"
+        android:layout_gravity="center"
+        android:layout_below="@id/txtCalloffsCount"
+        android:layout_centerHorizontal="true"
+        android:text="Call Offs"/>
+
+
+
+</RelativeLayout><!-- From: file:/Users/matias/Documents/Proyects/OnShift-Android/Android/res/layout/fragment_home.xml -->

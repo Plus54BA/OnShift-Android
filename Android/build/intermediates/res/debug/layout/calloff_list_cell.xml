@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.daimajia.swipe.SwipeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="80dp" android:id="@+id/swipeLayout">
+    <!-- Bottom View Start-->
+     <LinearLayout
+        android:orientation="vertical"
+        android:background="@color/os_blue"
+        android:id="@+id/bottom_wrapper"
+        android:layout_width="90dp"
+        android:weightSum="1"
+        android:layout_height="match_parent">
+        <!--What you want to show-->
+        <Button 
+            android:id="@+id/btnReplace"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Replace"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            android:layout_gravity="center"
+            android:background="@null"
+            android:onClick="replaceBtnClickHandler"/>
+    </LinearLayout>
+    <!-- Bottom View End-->
+
+    <!-- Surface View Start -->
+     <LinearLayout
+        android:padding="7dp"
+        android:background="@color/os_white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!--What you want to show in SurfaceView-->
+        
+        <RelativeLayout
+		    android:id="@+id/rl_menu_cell"
+		    android:layout_width="wrap_content" android:layout_height="wrap_content"
+		    android:paddingBottom="2dp">
+		
+		    <TextView
+		        android:id="@+id/txtTime"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:gravity="left"
+		        android:textColor="@color/os_gray"
+		        android:textSize="18sp"
+		        android:layout_marginLeft="5dp"
+		        android:layout_marginTop="5dp"
+		        android:text=""
+		        />
+		    
+		    <TextView
+		        android:id="@+id/txtResponses"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:gravity="right"
+		        android:textColor="@color/os_gray"
+		        android:textSize="9sp"
+		        android:layout_toRightOf="@id/txtTime"
+		        android:layout_alignParentRight="true"
+		        android:layout_marginRight="10dp"
+		        android:layout_marginTop="12dp"
+		        android:text=""
+		        />
+		
+		    <TextView
+		        android:id="@+id/txtLocation"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:gravity="left"
+		        android:textColor="@color/os_gray"
+		        android:textSize="15sp"
+		        android:layout_marginLeft="5dp"
+		        android:text=""
+		        android:layout_below="@id/txtTime"
+		        />
+		    
+		    <TextView
+		        android:id="@+id/txtName"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:gravity="left"
+		        android:textColor="@color/os_gray"
+		        android:textSize="13sp"
+		        android:layout_marginLeft="5dp"
+		        android:text=""
+		        android:layout_below="@id/txtLocation"
+		        />
+		    
+		    <TextView
+		        android:id="@+id/txtNotice"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:gravity="left"
+		        android:textColor="@color/os_gray"
+		        android:textSize="13sp"
+		        android:layout_marginLeft="5dp"
+		        android:text=""
+		        android:layout_below="@id/txtName"
+		        />
+		    
+		    <TextView
+		        android:id="@+id/txtReason"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:gravity="left"
+		        android:textColor="@color/os_gray"
+		        android:textSize="13sp"
+		        android:layout_marginLeft="5dp"
+		        android:text=""
+		        android:layout_below="@id/txtNotice"
+		        />
+		    
+		    <TextView
+		        android:id="@+id/txtRequiredAssigned"
+		        android:layout_width="160dp"
+		        android:layout_height="22dp"
+		        android:gravity="center"
+		        android:layout_centerHorizontal="true"
+		        android:textColor="@color/white"
+		        android:background="@color/os_orange"
+		        android:textSize="16sp"
+		        android:layout_marginLeft="0dp"
+		        android:text=""
+		        android:layout_below="@id/txtReason"
+		        android:layout_marginTop="10dp"
+		        />
+		    
+		</RelativeLayout>
+        
+    </LinearLayout>
+    <!-- Surface View End -->
+</com.daimajia.swipe.SwipeLayout>
+<!-- From: file:/Users/matias/Documents/Proyects/OnShift-Android/Android/res/layout/calloff_list_cell.xml -->

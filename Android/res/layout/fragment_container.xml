@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl_app_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity$PlaceholderFragment"
+    android:background="@color/white"
+    >
+
+    <!-- *** TOP BAR *** -->
+
+    <FrameLayout
+        android:id="@+id/framelayout_topbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@color/os_primary"
+        >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp">
+            
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:background="@null"
+                android:src="@drawable/topbar_menu_btn"
+                android:id="@+id/btnMenu" />
+            
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:background="@null"
+                android:visibility="invisible"
+                android:src="@drawable/topbar_back_btn"
+                android:id="@+id/btnBack" />
+            
+            <ImageView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/topbar_icon"
+                android:id="@+id/imgTopbarLogo"/>
+            
+            <TextView
+		        android:id="@+id/txtSection"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:gravity="center"
+		        android:layout_centerHorizontal="true"
+		        android:layout_centerVertical="true"
+		        android:textColor="@color/white"
+		        android:textSize="17sp"
+		        android:textStyle="bold"
+		        android:layout_marginLeft="0dp"
+		        android:layout_marginTop="0dp"
+		        android:visibility="invisible"
+		        />
+            
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@null"
+                android:src="@drawable/topbar_msg_btn"
+                android:id="@+id/btnMsg" />
+
+
+        </RelativeLayout>
+    </FrameLayout>
+
+    <!-- *** CONTENT FRAME *** -->
+
+    <FrameLayout
+        android:id="@+id/framelayout_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="0dp"
+        android:layout_below="@+id/framelayout_topbar"
+        >
+    </FrameLayout>
+    
+    <RelativeLayout 
+        android:id="@+id/rlAssignOk"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#5f605d"
+        android:animateLayoutChanges="true"
+        android:visibility="invisible">
+        
+        <ImageView 
+            android:id="@+id/imgOk"
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/shift_assigned_ok"/>
+        <TextView 
+            android:id="@+id/txtShiftAssigned"
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="Shift was Assigned"
+        	android:layout_centerHorizontal="true"
+        	android:layout_alignParentBottom="true"
+        	android:textSize="14sp"
+        	android:textColor="#74bb44"
+        	android:layout_marginBottom="70dp"/>
+    </RelativeLayout>
+
+</RelativeLayout>

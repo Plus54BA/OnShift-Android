@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_menu_cell_loading"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:padding="6dp">
+
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerHorizontal="true">
+        
+        <ProgressBar
+		    android:indeterminate="true"
+		    android:id="@+id/marker_progress"
+		    style="?android:attr/progressBarStyle"
+		    android:layout_height="24dp"
+		    android:layout_width="24dp"/>
+    
+	    <TextView
+	        android:id="@+id/txtLoading"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:maxLines="1"
+	        android:textColor="@color/black"
+	        android:textSize="14sp"
+	        android:layout_centerVertical="true"
+	        android:text="Loading more items..."
+	        android:layout_marginLeft="5dp"
+	        android:layout_toRightOf="@id/marker_progress"
+	        />
+        
+    </LinearLayout>
+    
+    
+    
+    
+    
+</RelativeLayout><!-- From: file:/Users/matias/Documents/Proyects/OnShift-Android/Android/res/layout/calloff_list_cell_loading.xml -->
